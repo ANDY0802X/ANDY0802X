@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/ANDY0802X/ANDY0802X/master/assets/profile-header.svg" alt="Colorful animated developer dashboard header" width="100%" />
+
 # `AAYUSH KUMAWAT`
 
 ### `@ANDY0802X`
@@ -21,6 +23,10 @@
 [![Instagram](https://img.shields.io/badge/INSTAGRAM-@ITS_AAYUSH_KUMAWAT-111923?style=for-the-badge&logo=instagram&logoColor=E4405F)](https://instagram.com/its_aayush_kumawat)
 
 </div>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ANDY0802X/ANDY0802X/master/assets/activity-panel.svg" alt="Animated recent activity panel" width="100%" />
+</p>
 
 <table>
 <tr>
@@ -127,6 +133,37 @@ EMAIL      aayush130208@gmail.com
 [`liquid-flow`](https://github.com/ANDY0802X/liquid-flow) ·
 [`MY-PROJECTS`](https://github.com/ANDY0802X/MY-PROJECTS) ·
 [`neumorphic-buble`](https://github.com/ANDY0802X/neumorphic-buble)
+
+</details>
+
+---
+
+## `> easter.eggs // access.granted`
+
+<details>
+<summary><b>🔐 Open the hidden developer console</b></summary>
+
+```console
+$ whoami
+aayush@jaipur:~/build-worlds
+
+$ cat ./coffee_to_code.sh
+#!/usr/bin/env bash
+while true; do
+  coffee --refill
+  code --ship
+  bugs --convert-to-features
+done
+
+$ echo $SECRET_LEVEL
+████████████████████ 100% curiosity
+```
+
+**Easter egg 01:** The four featured projects spell `T · T · S · M` — the current route through my project radar: **The-Backrooms → terminal-portfolio → Stiki-war → MediNexus**.
+
+**Easter egg 02:** The contribution matrix is intentionally not GitHub green. Amber means shipping, cyan means exploring, violet means designing, and pink means a new rabbit hole.
+
+**Easter egg 03:** Find the `∞%` build index in the header. It is the only metric that grows faster than the coffee bill.
 
 </details>
 

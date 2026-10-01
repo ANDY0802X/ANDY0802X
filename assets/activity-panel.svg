@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 190" role="img" aria-labelledby="title">
+  <title id="title">Animated recent activity panel</title>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#10132e"/><stop offset=".5" stop-color="#17285a"/><stop offset="1" stop-color="#102b32"/></linearGradient>
+    <linearGradient id="line"><stop stop-color="#ff4ecd"/><stop offset=".5" stop-color="#7c5cff"/><stop offset="1" stop-color="#00e5ff"/></linearGradient>
+    <style>
+      .m{font-family:'Courier New',monospace;letter-spacing:2px}
+      .p{animation:p 2s ease-in-out infinite}.s{animation:s 4s linear infinite}
+      @keyframes p{50%{opacity:.45}}@keyframes s{from{transform:translateX(-900px)}to{transform:translateX(900px)}}
+    </style>
+  </defs>
+  <rect width="900" height="190" rx="20" fill="url(#bg)" stroke="#6b77d8"/>
+  <path d="M0 144C130 80 225 170 350 112S580 58 900 135" fill="none" stroke="url(#line)" stroke-width="3"/>
+  <path d="M0 145C130 81 225 171 350 113S580 59 900 136" fill="none" stroke="#fff" stroke-opacity=".35" class="s"/>
+  <text x="30" y="38" class="m" font-size="12" fill="#ffdd7a">RECENT ACTIVITY // GITHUB API STREAM</text>
+  <text x="30" y="76" class="m" font-size="14" fill="#eaf2ff">PUSH / BUILD / EXPERIMENT / REPEAT</text>
+  <text x="30" y="103" class="m" font-size="11" fill="#9cecff">ANDY0802X · ANDY0802X · terminal-portfolio</text>
+  <text x="30" y="169" class="m p" font-size="10" fill="#ffc4f1">● LIVE SIGNAL — NO DEFAULT GRAPH — JUST THE WORK</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Aayush Kumawat colorful developer dashboard header</title>
+  <desc id="desc">An original animated cyberpunk grid with terminal typography and colorful glowing accents.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#10002b"/><stop offset=".45" stop-color="#071b3d"/><stop offset="1" stop-color="#031f28"/>
+    </linearGradient>
+    <linearGradient id="aurora" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#ff4ecd"/><stop offset=".48" stop-color="#7c5cff"/><stop offset="1" stop-color="#00e5ff"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#76e4ff" stroke-opacity=".13"/>
+      <circle cx="2" cy="2" r="1.2" fill="#ffdd7a" fill-opacity=".28"/>
+    </pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="25"/></filter>
+    <style>
+      .mono{font-family:'Courier New',monospace;letter-spacing:3px}
+      .pulse{animation:pulse 2.6s ease-in-out infinite}
+      .drift{animation:drift 8s ease-in-out infinite}
+      .scan{animation:scan 5s linear infinite}
+      @keyframes pulse{0%,100%{opacity:.5}50%{opacity:1}}
+      @keyframes drift{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+      @keyframes scan{0%{transform:translateX(-420px);opacity:0}20%{opacity:.9}80%{opacity:.9}100%{transform:translateX(1500px);opacity:0}}
+    </style>
+  </defs>
+  <rect width="1200" height="330" rx="28" fill="url(#sky)"/>
+  <circle cx="1000" cy="30" r="170" fill="#ff3cac" opacity=".22" filter="url(#soft)"/>
+  <circle cx="160" cy="280" r="160" fill="#00ddff" opacity=".16" filter="url(#soft)"/>
+  <rect width="1200" height="330" rx="28" fill="url(#grid)"/>
+  <path d="M-20 256C170 125 270 315 470 190S790 80 1220 215" fill="none" stroke="url(#aurora)" stroke-width="4" opacity=".82" filter="url(#glow)" class="drift"/>
+  <path d="M-30 278C190 150 280 340 500 214S820 104 1230 238" fill="none" stroke="#ffdd7a" stroke-width="1" opacity=".5"/>
+  <rect x="0" y="16" width="1200" height="3" fill="#fff" opacity=".65" class="scan"/>
+  <rect x="38" y="34" width="1124" height="262" rx="20" fill="#020711" fill-opacity=".42" stroke="#8aa8ff" stroke-opacity=".45"/>
+  <text x="78" y="78" class="mono" font-size="13" fill="#ffdd7a">PROFILE_OS // AAYUSH_KUMAWAT // v2.0</text>
+  <text x="78" y="145" class="mono" font-size="48" font-weight="700" fill="#fff">AAYUSH KUMAWAT</text>
+  <text x="82" y="179" class="mono" font-size="16" fill="#9cecff">STUDENT DEVELOPER • FULL STACK • UI/UX • WEB • GAME DEV</text>
+  <text x="82" y="218" class="mono" font-size="15" fill="#ffc4f1">“A machine that turns coffee into code.”</text>
+  <text x="82" y="258" class="mono" font-size="12" fill="#b8c8ff">📍 JAIPUR, RAJASTHAN  //  ● SYSTEM ONLINE  //  ◈ IDEAS IN / INTERFACES OUT</text>
+  <g class="pulse">
+    <circle cx="1080" cy="90" r="7" fill="#00f5a0"/><circle cx="1080" cy="90" r="16" fill="none" stroke="#00f5a0" stroke-opacity=".35"/>
+  </g>
+  <g class="drift" opacity=".8">
+    <rect x="976" y="135" width="128" height="86" rx="10" fill="#101b42" stroke="#ff4ecd"/>
+    <text x="992" y="162" class="mono" font-size="10" fill="#ffdd7a">BUILD_INDEX</text>
+    <text x="992" y="195" class="mono" font-size="26" fill="#fff">∞%</text>
+    <text x="992" y="212" class="mono" font-size="8" fill="#9cecff">COFFEE POWERED</text>
+  </g>
+</svg>
