@@ -29,9 +29,37 @@ def get_json(path: str):
         return None
 
 
+def get_graphql(query: str):
+    token = os.environ.get("GITHUB_TOKEN")
+    if not token:
+        return {}
+    request = urllib.request.Request(
+        "https://api.github.com/graphql",
+        data=json.dumps({"query": query}).encode("utf-8"),
+        headers={
+            "Accept": "application/vnd.github+json",
+            "Authorization": f"Bearer {token}",
+            "Content-Type": "application/json",
+            "User-Agent": "ANDY0802X-profile-dashboard",
+        },
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=15) as response:
+            return json.loads(response.read().decode("utf-8")).get("data", {})
+    except Exception:
+        return {}
+
+
 profile = get_json(f"/users/{USERNAME}") or {}
 repos = get_json(f"/users/{USERNAME}/repos?per_page=100&sort=updated") or []
 events = get_json(f"/users/{USERNAME}/events/public?per_page=30") or []
+graphql = get_graphql(
+    f'query {{ user(login: "{USERNAME}") {{ pullRequests {{ totalCount }} '
+    "contributionsCollection { contributionCalendar { totalContributions } } } }"
+)
+github_user = graphql.get("user", {})
+pull_requests = github_user.get("pullRequests", {}).get("totalCount", 0)
+contributions = github_user.get("contributionsCollection", {}).get("contributionCalendar", {}).get("totalContributions", 0)
 featured_names = set(CONFIG["featured_repositories"])
 featured = [repo for repo in repos if repo.get("name") in featured_names][:4]
 if len(featured) < 4:
@@ -139,9 +167,9 @@ svg = f"""<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org
 {"".join(cells)}
 <text x="48" y="438" class="mono faint">QUIET</text><text x="650" y="438" class="mono faint">OUTPUT</text>
 <rect x="48" y="454" width="160" height="82" rx="14" fill="#111923" stroke="#263442"/><text x="68" y="480" class="mono label">REPOSITORIES</text><text x="68" y="518" class="mono title">{repo_count}</text>
-<rect x="220" y="454" width="160" height="82" rx="14" fill="#111923" stroke="#263442"/><text x="240" y="480" class="mono label">FOLLOWERS</text><text x="240" y="518" class="mono title">{followers}</text>
-<rect x="392" y="454" width="160" height="82" rx="14" fill="#111923" stroke="#263442"/><text x="412" y="480" class="mono label">ACTIVITY</text><text x="412" y="518" class="mono title">{event_count}</text>
-<rect x="564" y="454" width="148" height="82" rx="14" fill="#f6bd60"/><text x="584" y="480" class="mono" font-size="11" fill="#111923">BUILD INDEX</text><text x="584" y="518" class="mono" font-size="24" font-weight="bold" fill="#111923">{contribution_score}%</text>
+<rect x="220" y="454" width="160" height="82" rx="14" fill="#111923" stroke="#263442"/><text x="240" y="480" class="mono label">PULL REQUESTS</text><text x="240" y="518" class="mono title">{pull_requests}</text>
+<rect x="392" y="454" width="160" height="82" rx="14" fill="#111923" stroke="#263442"/><text x="412" y="480" class="mono label">CONTRIBUTIONS</text><text x="412" y="518" class="mono title">{contributions}</text>
+<rect x="564" y="454" width="148" height="82" rx="14" fill="#f6bd60"/><text x="584" y="480" class="mono" font-size="11" fill="#111923">FOLLOWERS</text><text x="584" y="518" class="mono" font-size="24" font-weight="bold" fill="#111923">{followers}</text>
 <text x="48" y="560" class="mono label">FEATURED PROJECTS / DISCOVERED FROM GITHUB</text>
 {repo_cards}
 <rect x="32" y="850" width="696" height="124" rx="16" fill="#111923" stroke="#263442"/>
