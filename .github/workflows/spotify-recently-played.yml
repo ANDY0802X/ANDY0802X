@@ -1,0 +1,45 @@
+name: Refresh Spotify panel
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  spotify:
+    if: ${{ secrets.SPOTIFY_CLIENT_ID != '' && secrets.SPOTIFY_CLIENT_SECRET != '' && secrets.SPOTIFY_REFRESH_TOKEN != '' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch recently played track
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+        run: |
+          python - <<'PY'
+          import base64, json, os, urllib.parse, urllib.request
+          auth = base64.b64encode(f"{os.environ['SPOTIFY_CLIENT_ID']}:{os.environ['SPOTIFY_CLIENT_SECRET']}".encode()).decode()
+          request = urllib.request.Request(
+              "https://accounts.spotify.com/api/token",
+              data=urllib.parse.urlencode({"grant_type": "refresh_token", "refresh_token": os.environ["SPOTIFY_REFRESH_TOKEN"]}).encode(),
+              headers={"Authorization": f"Basic {auth}"},
+          )
+          token = json.load(urllib.request.urlopen(request))["access_token"]
+          request = urllib.request.Request(
+              "https://api.spotify.com/v1/me/player/recently-played?limit=1",
+              headers={"Authorization": f"Bearer {token}"},
+          )
+          data = json.load(urllib.request.urlopen(request))
+          item = data.get("items", [{}])[0].get("track", {})
+          with open("generated/spotify.json", "w", encoding="utf-8") as file:
+              json.dump({"track": item.get("name", "Lofi mode"), "artist": ", ".join(a["name"] for a in item.get("artists", []))}, file)
+          PY
+      - name: Commit Spotify data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh spotify panel"
+          file_pattern: generated/spotify.json
