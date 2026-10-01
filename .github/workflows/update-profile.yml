@@ -16,7 +16,9 @@ jobs:
       - name: Generate live dashboard panels
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/update_profile.py
+        run: |
+          python scripts/update_profile.py
+          python scripts/build_tech_panel.py
       - name: Commit generated dashboard
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
