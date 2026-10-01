@@ -69,7 +69,7 @@ def svg_start(width: int, height: int, title: str, desc: str) -> str:
 <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080d13"/><stop offset="1" stop-color="#0d171d"/></linearGradient>
 <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="{GRID}" stroke-opacity=".18"/></pattern>
 <style>.ui{{font-family:Arial,sans-serif}}.mono{{font-family:'Courier New',monospace}}.h{{font-size:13px;fill:{CYAN}}}.body{{font-size:11px;fill:{MUTED}}}.label{{font-size:9px;fill:#65727f;letter-spacing:1.5px}}.value{{font-size:23px;font-weight:bold;fill:{TEXT}}}.line{{stroke:{GRID}}}.pulse{{animation:pulse 2.8s ease-in-out infinite}}.rise{{animation:rise .7s ease-out both}}@keyframes pulse{{50%{{opacity:.35}}}}@keyframes rise{{from{{opacity:0;transform:translateY(6px)}}to{{opacity:1;transform:translateY(0)}}}}@media(prefers-reduced-motion:reduce){{.pulse,.rise{{animation:none}}}}</style></defs>
-<rect width="{width}" height="{height}" rx="16" fill="url(#bg)"/><rect width="{width}" height="{height}" rx="16" fill="url(#grid)"/><rect x=".5" y=".5" width="{width-1}" height="{height-1}" rx="16" fill="none" stroke="{GRID}"/>"""
+<rect width="{width}" height="{height}" rx="16" fill="url(#bg)"/><rect width="{width}" height="{height}" rx="16" fill="url(#grid)"/>"""
 
 
 def write(name: str, content: str):
@@ -116,7 +116,7 @@ stat_items = [
 for index, (label, value) in enumerate(stat_items):
     x = 24 + (index % 2) * 200
     y = 86 + (index // 2) * 64
-    stats += f'<g class="rise" style="animation-delay:{index * 60}ms"><rect x="{x}" y="{y}" width="178" height="49" rx="9" fill="{SURFACE}" stroke="{GRID}"/><text x="{x+14}" y="{y+17}" class="mono label">{esc(label)}</text><text x="{x+14}" y="{y+40}" class="value">{esc(value)}</text></g>'
+    stats += f'<g class="rise" style="animation-delay:{index * 60}ms"><rect x="{x}" y="{y}" width="178" height="49" rx="12" fill="{SURFACE}"/><text x="{x+14}" y="{y+17}" class="mono label">{esc(label)}</text><text x="{x+14}" y="{y+40}" class="value">{esc(value)}</text></g>'
 stats += '<text x="24" y="344" class="mono label">AAYUSH KUMAWAT / ANDY0802X / PROFILE NODE</text>'
 write("stats.svg", stats)
 
@@ -191,7 +191,7 @@ for index, repo in enumerate(active_repos[:6]):
     description = (repo.get("description") or "No public description available.").replace("\n", " ")
     description = description if len(description) < 50 else description[:47] + "..."
     updated = (repo.get("updated_at") or "")[:10] or "unknown"
-    repository_panel += f'<a href="{esc(repo.get("html_url", "#"))}"><g class="rise"><rect x="{x}" y="{y}" width="294" height="88" rx="10" fill="{SURFACE}" stroke="{GRID}"/><text x="{x+14}" y="{y+22}" class="mono h">{esc(name[:25])}</text><text x="{x+14}" y="{y+43}" class="body">{esc(description)}</text><text x="{x+14}" y="{y+66}" class="mono label">◈ {esc(repo.get("language") or "MULTI")}   ★ {repo.get("stargazers_count", 0)}   ⑂ {repo.get("forks_count", 0)}</text><text x="{x+205}" y="{y+66}" class="mono label">{esc(updated)}</text></g></a>'
+    repository_panel += f'<a href="{esc(repo.get("html_url", "#"))}"><g class="rise"><rect x="{x}" y="{y}" width="294" height="88" rx="13" fill="{SURFACE}"/><text x="{x+14}" y="{y+22}" class="mono h">{esc(name[:25])}</text><text x="{x+14}" y="{y+43}" class="body">{esc(description)}</text><text x="{x+14}" y="{y+66}" class="mono label">◈ {esc(repo.get("language") or "MULTI")}   ★ {repo.get("stargazers_count", 0)}   ⑂ {repo.get("forks_count", 0)}</text><text x="{x+205}" y="{y+66}" class="mono label">{esc(updated)}</text></g></a>'
 write("repositories.svg", repository_panel)
 
 # Spotify fallback panel; the workflow replaces the JSON when configured.
