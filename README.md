@@ -1,271 +1,147 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ANDY0802X/ANDY0802X/master/assets/github-command-center.svg" alt="Aayush Kumawat GitHub command center" width="100%" />
+<code>· · ·  A N D Y 0 8 0 2 X  · · ·</code>
 
-# `AAYUSH KUMAWAT`
-
-### `@ANDY0802X`
-
-**Student Developer • Full Stack • UI/UX • Web • Game Dev**
+# AAYUSH KUMAWAT
 
 <br>
 
-`[ JAIPUR, RAJASTHAN ]` · `[ BUILDING DIGITAL WORLDS ]` · `[ SYSTEM ONLINE ]`
+<b>Student Developer</b> · <b>Full Stack</b> · <b>UI/UX</b> · <b>Web</b> · <b>Game Development</b>
 
 <br>
 
-> **A machine that turns coffee into code.**
+<code>⌁ A machine that turns coffee into code. ⌁</code>
 
 <br>
 
-[![GitHub](https://img.shields.io/badge/GITHUB-ANDY0802X-111923?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ANDY0802X)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-CONNECT-111923?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/aayush-kumawat-80466538b/)
-[![Instagram](https://img.shields.io/badge/INSTAGRAM-@ITS_AAYUSH_KUMAWAT-111923?style=for-the-badge&logo=instagram&logoColor=E4405F)](https://instagram.com/its_aayush_kumawat)
+<code>⌖ Jaipur, Rajasthan</code> · <code>● SYSTEM ONLINE</code> · <code>DEVELOPER ANALYTICS / PROFILE OS</code>
 
 </div>
 
 <table>
 <tr>
-<td width="58%" valign="top">
+<td width="32%" valign="top">
 
-## `> identity.status`
+<img src="https://raw.githubusercontent.com/ANDY0802X/ANDY0802X/master/generated/stats.svg" alt="Live GitHub statistics" width="100%" />
+
+</td>
+<td width="38%" valign="top">
+
+<img src="https://raw.githubusercontent.com/ANDY0802X/ANDY0802X/master/generated/contribution.svg" alt="Custom contribution terrain visualization" width="100%" />
+
+</td>
+<td width="30%" valign="top">
+
+<img src="https://raw.githubusercontent.com/ANDY0802X/ANDY0802X/master/generated/activity.svg" alt="Live GitHub activity charts" width="100%" />
+
+</td>
+</tr>
+</table>
+
+## `> identity`
+
+<table>
+<tr>
+<td width="52%" valign="top">
 
 ```text
 NAME       Aayush Kumawat
-HANDLE     @ANDY0802X
-ROLE       Student Developer
-FOCUS      Full Stack / UI-UX / Web / Game Dev
+USERNAME   ANDY0802X
+TITLE      Student Developer
+           Full Stack / UI/UX / Web / Game Development
 LOCATION   Jaipur, Rajasthan
-SIGNAL     Ideas in. Interfaces out.
 EMAIL      aayush130208@gmail.com
+SIGNAL     A machine that turns coffee into code.
 ```
 
-### `> currently.building`
-
-- Interactive web experiences with **React**, **Node.js**, **Firebase**, **Supabase**, and **MongoDB**
-- Atmospheric game worlds inspired by **The-Backrooms** and **Stiki-war**
-- Useful experiments that turn rough ideas into polished interfaces
-
 </td>
-<td width="42%" valign="top">
+<td width="48%" valign="top">
 
-## `> system.telemetry`
-
-| Metric | Signal |
-| --- | ---: |
-| Public repositories | **10** |
-| Pull requests | **Live API** |
-| Contributions | **Live API** |
-| Repository stars | **Live API** |
-| Activity stream | **Live API** |
-
-### `> contribution.matrix`
-
-`▁ ▂ ▃ ▅ ▆ ▇ ▆ ▅ ▃ ▂ ▁`
-
-`▂ ▅ ▆ ▇ ▅ ▃ ▂ ▅ ▆ ▇ ▅`
-
-`▃ ▆ ▇ ▅ ▂ ▃ ▅ ▆ ▇ ▆ ▃`
-
-<sub>Custom generated activity visualization · refreshed daily</sub>
+<img src="https://raw.githubusercontent.com/ANDY0802X/ANDY0802X/master/generated/languages.svg" alt="Live language distribution" width="100%" />
 
 </td>
 </tr>
 </table>
 
----
+## `> repository.radar // live`
 
-## `> project.radar // auto-discovered`
+<img src="https://raw.githubusercontent.com/ANDY0802X/ANDY0802X/master/generated/repositories.svg" alt="Automatically discovered repository cards" width="100%" />
+
+## `> technology.ecosystem`
+
+<img src="https://raw.githubusercontent.com/ANDY0802X/ANDY0802X/master/assets/tech-ecosystem.svg" alt="Technology ecosystem with linked icons" width="100%" />
+
+## `> workstation`
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### [`The-Backrooms`](https://github.com/ANDY0802X/The-Backrooms)
-
-> Atmospheric web/game experience with an unsettling sense of place.
-
-`GAME DEV` · `WEB` · `EXPERIMENTAL`
+<img src="https://raw.githubusercontent.com/ANDY0802X/ANDY0802X/master/assets/setup.svg" alt="Developer workstation setup" width="100%" />
 
 </td>
 <td width="50%" valign="top">
 
-### [`terminal-portfolio`](https://github.com/ANDY0802X/terminal-portfolio)
-
-> A terminal-inspired portfolio for a terminal-first developer.
-
-`PORTFOLIO` · `UI/UX` · `WEB`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [`Stiki-war`](https://github.com/ANDY0802X/Stiki-war)
-
-> A game project built around action, systems, and atmosphere.
-
-`GAME DEV` · `CREATIVE CODE`
-
-</td>
-<td width="50%" valign="top">
-
-### [`MediNexus-Hospital-LifeCare`](https://github.com/ANDY0802X/MediNexus-Hospital-LifeCare)
-
-> A full-stack healthcare experience focused on useful interaction.
-
-`FULL STACK` · `DATA` · `PRODUCT`
+<img src="https://raw.githubusercontent.com/ANDY0802X/ANDY0802X/master/assets/gaming.svg" alt="Gaming and game development HUD" width="100%" />
 
 </td>
 </tr>
 </table>
 
-<details>
-<summary><b>View all repositories</b></summary>
-
-[`appology`](https://github.com/ANDY0802X/appology) ·
-[`berd-ai-agents`](https://github.com/ANDY0802X/berd-ai-agents) ·
-[`birthday-surprise-scrapbook`](https://github.com/ANDY0802X/birthday-surprise-scrapbook) ·
-[`liquid-flow`](https://github.com/ANDY0802X/liquid-flow) ·
-[`MY-PROJECTS`](https://github.com/ANDY0802X/MY-PROJECTS) ·
-[`neumorphic-buble`](https://github.com/ANDY0802X/neumorphic-buble)
-
-</details>
-
----
-
-## `> easter.eggs // access.granted`
-
-<details>
-<summary><b>🔐 Open the hidden developer console</b></summary>
-
-```console
-$ whoami
-aayush@jaipur:~/build-worlds
-
-$ cat ./coffee_to_code.sh
-#!/usr/bin/env bash
-while true; do
-  coffee --refill
-  code --ship
-  bugs --convert-to-features
-done
-
-$ echo $SECRET_LEVEL
-████████████████████ 100% curiosity
-```
-
-**Easter egg 01:** The four featured projects spell `T · T · S · M` — the current route through my project radar: **The-Backrooms → terminal-portfolio → Stiki-war → MediNexus**.
-
-**Easter egg 02:** The contribution matrix is intentionally not GitHub green. Amber means shipping, cyan means exploring, violet means designing, and pink means a new rabbit hole.
-
-**Easter egg 03:** Find the `∞%` build index in the header. It is the only metric that grows faster than the coffee bill.
-
-</details>
-
----
-
-## `> stack.ecosystem`
+## `> currently.building`
 
 <table>
 <tr>
-<td><b>LANGUAGES</b></td>
-<td>Java · Python · C++ · HTML · CSS · JavaScript</td>
-</tr>
-<tr>
-<td><b>FRONTEND</b></td>
-<td>React · responsive UI · SVG motion · glassmorphism</td>
-</tr>
-<tr>
-<td><b>BACKEND</b></td>
-<td>Node.js · Firebase · Supabase</td>
-</tr>
-<tr>
-<td><b>DATABASE</b></td>
-<td>MongoDB · MySQL</td>
-</tr>
-<tr>
-<td><b>CRAFT</b></td>
-<td>Git · Figma · Stitch · terminal-first workflows</td>
-</tr>
-<tr>
-<td><b>AI / BUILD TOOLS</b></td>
-<td>Antigravity · Base44 · Claude · OpenClaw · Ollama</td>
-</tr>
-</table>
+<td width="18%"><b><code>● ACTIVE</code></b></td>
+<td width="82%">
 
----
-
-## `> recent.activity`
-
-| Event | Channel |
-| --- | --- |
-| `PUSH / COMMIT` | Repository work and interface experiments |
-| `PROJECT RADAR` | Automatically refreshed from public GitHub activity |
-| `BUILD SIGNAL` | Ideas → prototypes → polished experiences |
-| `NEXT TARGET` | More interactive web and game projects |
-
-## `> developer.setup`
-
-`VS Code` · `Spyder IDE` · `Eclipse` · `Figma` · `Stitch` · `Terminal` · `Antigravity` · `Base44` · `Claude` · `OpenClaw` · `Ollama`
-
-> Design in Figma/Stitch. Prototype quickly. Build in the terminal. Polish until the interface feels like a game menu.
-
----
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-## `> gaming.mode`
-
-Atmospheric games, strange spaces, survival systems, and anything that makes a UI feel like a place rather than a page.
-
-**Current mood:** `explore → build → debug → repeat`
-
-</td>
-<td width="50%" valign="top">
-
-## `> music.mode`
-
-**Instrumental / lofi coding music: ON**
-
-Spotify recently played is supported through the repository workflow. It stays disabled safely until these secrets are configured:
-
-`SPOTIFY_CLIENT_ID`  
-`SPOTIFY_CLIENT_SECRET`  
-`SPOTIFY_REFRESH_TOKEN`
+**Interactive web experiences + atmospheric game worlds**  
+React · Node.js · Firebase · Supabase · MongoDB · SVG motion
 
 </td>
 </tr>
 </table>
 
-## `> badges.certifications`
+> Easy edit point: replace the project line above when the next build changes.
 
-**Holopin:** [open badge shelf](https://holopin.io/@andy0802x)
+## `> recent.commits`
+
+The activity panel above is generated from public GitHub events and recent repository commits. It refreshes automatically through GitHub Actions and falls back to an explicit “no public activity” state when the API returns no usable data.
+
+## `> music / spotify`
+
+<img src="https://raw.githubusercontent.com/ANDY0802X/ANDY0802X/master/generated/spotify.svg" alt="Recently played coding music" width="100%" />
+
+Instrumental · lo-fi · coding focus. Add `SPOTIFY_CLIENT_ID`, `SPOTIFY_CLIENT_SECRET`, and `SPOTIFY_REFRESH_TOKEN` as repository secrets to enable the optional integration. No secrets are committed.
+
+## `> certifications`
 
 `[ certification slot ]` · `[ certification slot ]` · `[ certification slot ]`
 
----
+## `> socials`
 
-## `> find.me`
+<a href="https://instagram.com/its_aayush_kumawat">Instagram · @its_aayush_kumawat</a> ·
+<a href="https://www.linkedin.com/in/aayush-kumawat-80466538b/">LinkedIn</a> ·
+<a href="mailto:aayush130208@gmail.com">Email</a> ·
+<a href="https://holopin.io/@andy0802x">Holopin</a> ·
+<code>Portfolio: coming soon</code>
 
-| Network | Link |
-| --- | --- |
-| GitHub | [@ANDY0802X](https://github.com/ANDY0802X) |
-| Instagram | [@its_aayush_kumawat](https://instagram.com/its_aayush_kumawat) |
-| LinkedIn | [aayush-kumawat-80466538b](https://www.linkedin.com/in/aayush-kumawat-80466538b/) |
-| Email | [aayush130208@gmail.com](mailto:aayush130208@gmail.com) |
-| Portfolio | `coming soon` |
+## `> philosophy`
 
-## `> developer.philosophy`
+> Make it useful. Make it feel alive. Make the next version easier to build.
 
-> **Make it useful. Make it feel alive. Make the next version easier to build.**
+<details>
+<summary><b>Hidden developer console</b></summary>
 
-<div align="center">
+```console
+$ coffee --refill && code --ship
+[ok] curiosity level: 100%
+[ok] bugs converted into features
+[hint] hover the activity terrain, then look for the hidden pixel pattern
+```
 
-`◈ PROFILE_OS // NO PHOTO UPLOADS // LIVE DATA WORKFLOWS // ORIGINAL DESIGN ◈`
+The contribution terrain uses a small hidden coffee-cup pattern on high-output days. The green status dot is a terminal cursor, not a decoration. Reduced-motion users get the same data without transitions.
 
-<sub>Dashboard layout is built with native GitHub Markdown/HTML so it renders directly on the profile page.</sub>
+</details>
 
-</div>
+<sub>Generated SVG panels are lightweight, keyboard-independent, screen-reader-described, and refreshed by <code>.github/workflows/update-profile.yml</code>.</sub>

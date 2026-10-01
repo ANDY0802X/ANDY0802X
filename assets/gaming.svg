@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 190" role="img" aria-labelledby="title">
+<title id="title">Gaming and game development HUD</title>
+<style>.m{font-family:'Courier New',monospace}.n{font-family:Arial,sans-serif}.blink{animation:b 1.7s infinite}@keyframes b{50%{opacity:.35}}</style>
+<rect width="480" height="190" rx="16" fill="#0b1117" stroke="#2a3945"/>
+<text x="22" y="30" class="m" font-size="13" fill="#5edbff">GAMING HUD</text><text x="22" y="49" class="n" font-size="11" fill="#81909e">GAME DEV / ATMOSPHERE / SYSTEMS</text>
+<g transform="translate(30 82)" fill="none" stroke="#c47cff" stroke-width="3"><path d="M18 30c-4-14 2-25 16-25h38c14 0 20 11 16 25l-4 12c-2 6-10 7-14 2l-9-10H43l-9 10c-4 5-12 4-14-2z"/><path d="M39 13v16M31 21h16M68 18h1M76 25h1"/></g>
+<g class="n" fill="#e7edf2"><text x="140" y="91">CURRENTLY PLAYING</text><text x="140" y="113" fill="#a4e87a">explore → build → debug → repeat</text><text x="140" y="137" fill="#81909e">The-Backrooms · Stiki-war</text><text x="140" y="161" fill="#81909e" class="blink">● pixel systems online</text></g>
+</svg>

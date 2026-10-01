@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 170" role="img" aria-labelledby="title">
+<title id="title">Technology ecosystem</title>
+<style>.m{font-family:'Courier New',monospace}.n{font-family:Arial,sans-serif}</style>
+<rect width="980" height="170" rx="16" fill="#0b1117" stroke="#2a3945"/>
+<text x="24" y="29" class="m" font-size="13" fill="#5edbff">TECHNOLOGY ECOSYSTEM</text><text x="24" y="48" class="n" font-size="11" fill="#81909e">ICON-FIRST TOOLCHAIN / HOVER LABELS / OFFICIAL LINKS</text>
+<g class="n" font-size="12" text-anchor="middle">
+  <a href="https://www.java.com/"><g transform="translate(30 68)"><rect width="98" height="70" rx="10" fill="#111820" stroke="#2a3945"/><text x="49" y="31" font-size="22" fill="#f89820">☕</text><text x="49" y="55" fill="#e7edf2">Java</text><title>Java</title></g></a>
+  <a href="https://www.python.org/"><g transform="translate(140 68)"><rect width="98" height="70" rx="10" fill="#111820" stroke="#2a3945"/><text x="49" y="31" font-size="22" fill="#5edbff">⌘</text><text x="49" y="55" fill="#e7edf2">Python</text><title>Python</title></g></a>
+  <a href="https://isocpp.org/"><g transform="translate(250 68)"><rect width="98" height="70" rx="10" fill="#111820" stroke="#2a3945"/><text x="49" y="31" font-size="20" fill="#9d7cff">C++</text><text x="49" y="55" fill="#e7edf2">C++</text><title>C++</title></g></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><g transform="translate(360 68)"><rect width="98" height="70" rx="10" fill="#111820" stroke="#2a3945"/><text x="49" y="31" font-size="22" fill="#f1d34f">JS</text><text x="49" y="55" fill="#e7edf2">JavaScript</text><title>JavaScript</title></g></a>
+  <a href="https://react.dev/"><g transform="translate(470 68)"><rect width="98" height="70" rx="10" fill="#111820" stroke="#2a3945"/><text x="49" y="31" font-size="22" fill="#5edbff">◉</text><text x="49" y="55" fill="#e7edf2">React</text><title>React</title></g></a>
+  <a href="https://nodejs.org/"><g transform="translate(580 68)"><rect width="98" height="70" rx="10" fill="#111820" stroke="#2a3945"/><text x="49" y="31" font-size="22" fill="#63d297">◆</text><text x="49" y="55" fill="#e7edf2">Node.js</text><title>Node.js</title></g></a>
+  <a href="https://git-scm.com/"><g transform="translate(690 68)"><rect width="98" height="70" rx="10" fill="#111820" stroke="#2a3945"/><text x="49" y="31" font-size="21" fill="#ef6d9c">◆</text><text x="49" y="55" fill="#e7edf2">Git</text><title>Git</title></g></a>
+  <a href="https://www.figma.com/"><g transform="translate(800 68)"><rect width="98" height="70" rx="10" fill="#111820" stroke="#2a3945"/><text x="49" y="31" font-size="21" fill="#c47cff">●</text><text x="49" y="55" fill="#e7edf2">Figma</text><title>Figma</title></g></a>
+</g>
+</svg>
