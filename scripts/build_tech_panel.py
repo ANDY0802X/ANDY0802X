@@ -50,7 +50,7 @@ def icon_markup(name: str, slug: str | None, x: int, y: int) -> str:
         if path.exists():
             encoded = base64.b64encode(path.read_bytes()).decode("ascii")
             return f'<image href="data:image/svg+xml;base64,{encoded}" x="{x}" y="{y}" width="27" height="27" preserveAspectRatio="xMidYMid meet"/>'
-    label, color = CUSTOM[name]
+    label, color = CUSTOM.get(name, (name[:3].upper(), "#a4e87a"))
     return f'<text x="{x + 13}" y="{y + 21}" text-anchor="middle" class="custom" fill="{color}">{label}</text>'
 
 
