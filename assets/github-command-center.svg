@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 610" role="img" aria-labelledby="title desc">
+  <title id="title">Aayush Kumawat GitHub command center</title>
+  <desc id="desc">A dark original developer dashboard inspired by GitHub analytics interfaces, with profile metrics, contribution activity, technology icons, language usage, projects, and music.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#080d14"/><stop offset=".6" stop-color="#0b1119"/><stop offset="1" stop-color="#0b161c"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" x2="1">
+      <stop stop-color="#25c978"/><stop offset="1" stop-color="#a0e875"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="0" x2="1">
+      <stop stop-color="#a875ff"/><stop offset="1" stop-color="#4ea1ff"/>
+    </linearGradient>
+    <pattern id="microgrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#31404e" stroke-opacity=".14"/>
+    </pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .ui{font-family:Arial,sans-serif}.mono{font-family:'Courier New',monospace}
+      .h{font-size:15px;fill:#39a9ff}.small{font-size:11px;fill:#81909e}
+      .tiny{font-size:9px;fill:#65727f}.white{fill:#e7edf2}
+      .green{fill:#35cf7e}.line{stroke:#273541}
+      .pulse{animation:pulse 2.7s ease-in-out infinite}.float{animation:float 6s ease-in-out infinite}
+      .scan{animation:scan 6s linear infinite}
+      @keyframes pulse{50%{opacity:.45}}@keyframes float{50%{transform:translateY(-5px)}}
+      @keyframes scan{from{transform:translateX(-300px);opacity:0}20%{opacity:.35}80%{opacity:.35}to{transform:translateX(1500px);opacity:0}}
+    </style>
+  </defs>
+  <rect width="1200" height="610" fill="url(#bg)"/>
+  <rect width="1200" height="610" fill="url(#microgrid)"/>
+  <rect x="1" y="1" width="1198" height="608" fill="none" stroke="#202b35"/>
+  <rect y="0" width="1200" height="46" fill="#151c25"/>
+  <path d="M0 46H1200" stroke="#2c3945"/>
+  <g transform="translate(54 12)">
+    <circle cx="16" cy="12" r="15" fill="#f2f6f8"/>
+    <path d="M7 12c0-5 4-9 9-9s9 4 9 9c0 4-3 7-6 8v-3h-2v4c-6 0-10-4-10-9z" fill="#101720"/>
+  </g>
+  <text x="104" y="29" class="mono small">ANDY0802X / GITHUB COMMAND CENTER</text>
+  <text x="1080" y="29" class="mono tiny">SYSTEM ONLINE</text>
+  <circle cx="1060" cy="25" r="4" fill="#28d883" class="pulse"/>
+
+  <g transform="translate(38 72)">
+    <circle cx="112" cy="92" r="94" fill="#0d141c" stroke="#2c3945"/>
+    <circle cx="112" cy="92" r="76" fill="#17242d" stroke="#394c5a"/>
+    <circle cx="112" cy="92" r="51" fill="#15212b" stroke="#31c77a" stroke-opacity=".55"/>
+    <text x="112" y="87" text-anchor="middle" class="mono" font-size="25" fill="#dce9ee">AK</text>
+    <text x="112" y="112" text-anchor="middle" class="mono tiny">PROFILE NODE</text>
+    <circle cx="182" cy="160" r="12" fill="#17241f" stroke="#2fca79"/>
+    <text x="182" y="164" text-anchor="middle" font-size="11" fill="#67e8a2">✦</text>
+    <text x="0" y="220" class="ui h">GitHub metrics</text>
+    <text x="0" y="238" class="ui small">aayush130208@gmail.com</text>
+    <text x="0" y="265" class="ui white">Aayush Kumawat</text>
+    <text x="0" y="286" class="ui small">Student Developer</text>
+    <text x="0" y="309" class="ui small">⌖ Jaipur, Rajasthan</text>
+    <text x="0" y="332" class="ui small">◈ Full Stack · UI/UX · Web · Game Dev</text>
+    <text x="0" y="364" class="ui h">▱ 10 Repositories</text>
+    <text x="0" y="385" class="ui small">◌ Public projects / live radar</text>
+    <text x="0" y="406" class="ui small">♢ 1 Profile OS</text>
+    <text x="0" y="427" class="ui h">⌁ Coding habits and recent activity</text>
+  </g>
+
+  <g transform="translate(315 75)">
+    <text x="0" y="12" class="ui h">◈ A machine that turns coffee into code.</text>
+    <text x="0" y="34" class="ui small">Joined the internet to make useful things feel alive.</text>
+    <text x="0" y="55" class="ui small">Currently building interactive web experiences and game worlds.</text>
+    <line x1="0" y1="72" x2="510" y2="72" class="line"/>
+    <text x="0" y="98" class="ui h">Commit activity per time of day</text>
+    <g transform="translate(0 111)">
+      <line x1="0" y1="83" x2="510" y2="83" stroke="#273541"/>
+      <g fill="url(#green)" filter="url(#glow)">
+        <rect x="14" y="62" width="7" height="21" rx="3"/><rect x="39" y="72" width="7" height="11" rx="3"/>
+        <rect x="65" y="80" width="7" height="3" rx="3"/><rect x="191" y="65" width="7" height="18" rx="3"/>
+        <rect x="215" y="47" width="7" height="36" rx="3"/><rect x="239" y="28" width="7" height="55" rx="3"/>
+        <rect x="264" y="57" width="7" height="26" rx="3"/><rect x="288" y="16" width="7" height="67" rx="3"/>
+        <rect x="314" y="41" width="7" height="42" rx="3"/><rect x="339" y="67" width="7" height="16" rx="3"/>
+        <rect x="388" y="52" width="7" height="31" rx="3"/><rect x="414" y="25" width="7" height="58" rx="3"/>
+        <rect x="440" y="48" width="7" height="35" rx="3"/>
+      </g>
+      <g class="tiny mono"><text x="10" y="101">00</text><text x="90" y="101">04</text><text x="170" y="101">08</text><text x="250" y="101">12</text><text x="330" y="101">16</text><text x="410" y="101">20</text><text x="485" y="101">23</text></g>
+    </g>
+    <text x="0" y="250" class="ui h">Commit activity per day</text>
+    <g transform="translate(0 265)">
+      <line x1="0" y1="55" x2="510" y2="55" stroke="#273541"/>
+      <rect x="22" y="35" width="8" height="20" rx="3" fill="#35cf7e"/><rect x="94" y="8" width="8" height="47" rx="3" fill="#35cf7e"/>
+      <rect x="316" y="44" width="8" height="11" rx="3" fill="#35cf7e"/><rect x="388" y="28" width="8" height="27" rx="3" fill="#35cf7e"/>
+      <text x="0" y="73" class="tiny mono">Sun</text><text x="74" y="73" class="tiny mono">Mon</text><text x="148" y="73" class="tiny mono">Tue</text><text x="222" y="73" class="tiny mono">Wed</text><text x="296" y="73" class="tiny mono">Thu</text><text x="370" y="73" class="tiny mono">Fri</text><text x="444" y="73" class="tiny mono">Sat</text>
+    </g>
+  </g>
+
+  <g transform="translate(855 75)">
+    <text x="0" y="12" class="ui h">⌁ PageSpeed Insights</text>
+    <text x="0" y="34" class="ui small">https://github.com/ANDY0802X</text>
+    <g transform="translate(15 52)" class="float">
+      <circle cx="30" cy="30" r="25" fill="none" stroke="#19c777" stroke-width="4"/><text x="30" y="36" text-anchor="middle" class="ui white" font-size="17">97</text><text x="30" y="55" text-anchor="middle" class="tiny">Performance</text>
+      <circle cx="132" cy="30" r="25" fill="none" stroke="#19c777" stroke-width="4"/><text x="132" y="36" text-anchor="middle" class="ui white" font-size="17">100</text><text x="132" y="55" text-anchor="middle" class="tiny">Accessibility</text>
+      <circle cx="234" cy="30" r="25" fill="none" stroke="#19c777" stroke-width="4"/><text x="234" y="36" text-anchor="middle" class="ui white" font-size="17">100</text><text x="234" y="55" text-anchor="middle" class="tiny">Best Practices</text>
+    </g>
+    <text x="0" y="144" class="ui h">⌗ Contributions calendar</text>
+    <g transform="translate(4 158)" fill="#2ec978">
+      <path d="M0 28L68 0l70 28-68 28z" opacity=".9"/><path d="M0 28v15l70 29V57z" opacity=".55"/><path d="M138 28v15L70 72V57z" opacity=".7"/>
+      <path d="M25 28L68 11l43 17-43 17z" fill="#0c6b4d"/><path d="M53 18l15-7 15 7-15 8z" fill="#b1ef91"/>
+      <path d="M17 42l15-6 15 7-15 6zM87 42l15-6 15 7-15 6zM45 55l15-6 15 7-15 6zM73 55l15-6 15 7-15 6z" fill="#6ee19b"/>
+    </g>
+    <text x="0" y="255" class="ui small">Current streak 2 days · ~3.82 commits/day</text>
+    <text x="0" y="280" class="ui h">♫ Suggested tracks</text>
+    <text x="0" y="300" class="ui small">Instrumental / lofi coding mode</text>
+    <text x="0" y="323" class="ui small">› Coffee shop ambience</text>
+    <text x="0" y="343" class="ui small">› Neon rain / focus loop</text>
+  </g>
+
+  <g transform="translate(315 445)">
+    <text x="0" y="12" class="ui h">⌘ Mastered technologies and topics</text>
+    <g transform="translate(0 30)">
+      <g class="ui white" font-size="20">
+        <text x="0" y="20">JS</text><text x="42" y="20">◉</text><text x="82" y="20">◆</text><text x="122" y="20">V</text><text x="163" y="20">◈</text><text x="204" y="20">git</text><text x="255" y="20">AWS</text><text x="310" y="20">G</text><text x="350" y="20">◉</text><text x="390" y="20">◌</text><text x="430" y="20">◒</text>
+      </g>
+      <g class="tiny mono"><text x="0" y="43">JavaScript  Python  C++  HTML  CSS  React  Node  MongoDB  MySQL</text><text x="0" y="62">Firebase  Supabase  Git  Figma  Antigravity  Base44  Terminal  VS Code</text></g>
+    </g>
+  </g>
+
+  <g transform="translate(855 445)">
+    <text x="0" y="12" class="ui h">▤ Most used languages</text>
+    <rect x="0" y="29" width="350" height="9" rx="4" fill="#202d37"/>
+    <rect x="0" y="29" width="210" height="9" rx="4" fill="#f1d34f"/><rect x="210" y="29" width="62" height="9" fill="#ef6d9c"/><rect x="272" y="29" width="42" height="9" fill="#3285bb"/><rect x="314" y="29" width="36" height="9" rx="4" fill="#b36cff"/>
+    <text x="0" y="58" class="tiny">● JavaScript</text><text x="95" y="58" class="tiny">● C++</text><text x="165" y="58" class="tiny">● Python</text><text x="255" y="58" class="tiny">● TypeScript</text>
+    <text x="0" y="91" class="ui h">▱ Featured project</text>
+    <text x="0" y="113" class="ui white">The-Backrooms</text><text x="0" y="132" class="ui small">Atmospheric world / game experiment</text>
+    <line x1="0" y1="148" x2="350" y2="148" stroke="#273541"/>
+    <text x="0" y="171" class="ui small">∞ Ideas in · interfaces out · ship often</text>
+  </g>
+  <rect x="0" y="0" width="1200" height="2" fill="#39a9ff" opacity=".6" class="scan"/>
+</svg>

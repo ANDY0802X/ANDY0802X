@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ANDY0802X/ANDY0802X/master/assets/profile-header.svg" alt="Colorful animated developer dashboard header" width="100%" />
+<img src="https://raw.githubusercontent.com/ANDY0802X/ANDY0802X/master/assets/github-command-center.svg" alt="Aayush Kumawat GitHub command center" width="100%" />
 
 # `AAYUSH KUMAWAT`
 
@@ -23,10 +23,6 @@
 [![Instagram](https://img.shields.io/badge/INSTAGRAM-@ITS_AAYUSH_KUMAWAT-111923?style=for-the-badge&logo=instagram&logoColor=E4405F)](https://instagram.com/its_aayush_kumawat)
 
 </div>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/ANDY0802X/ANDY0802X/master/assets/activity-panel.svg" alt="Animated recent activity panel" width="100%" />
-</p>
 
 <table>
 <tr>
