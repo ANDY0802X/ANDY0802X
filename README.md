@@ -1,116 +1,238 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ANDY0802X/ANDY0802X/master/generated/dashboard.svg" alt="Aayush Kumawat developer dashboard" width="100%" />
+
+# `AAYUSH KUMAWAT`
+
+### `@ANDY0802X`
+
+**Student Developer • Full Stack • UI/UX • Web • Game Dev**
+
+<br>
+
+`[ JAIPUR, RAJASTHAN ]` · `[ BUILDING DIGITAL WORLDS ]` · `[ SYSTEM ONLINE ]`
+
+<br>
+
+> **A machine that turns coffee into code.**
+
+<br>
+
+[![GitHub](https://img.shields.io/badge/GITHUB-ANDY0802X-111923?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ANDY0802X)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-CONNECT-111923?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/aayush-kumawat-80466538b/)
+[![Instagram](https://img.shields.io/badge/INSTAGRAM-@ITS_AAYUSH_KUMAWAT-111923?style=for-the-badge&logo=instagram&logoColor=E4405F)](https://instagram.com/its_aayush_kumawat)
+
 </div>
 
-<br />
+<table>
+<tr>
+<td width="58%" valign="top">
 
-<div align="center">
-  <a href="https://github.com/ANDY0802X"><img src="https://img.shields.io/badge/PROFILE-ANDY0802X-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" /></a>
-  <a href="https://www.linkedin.com/in/aayush-kumawat-80466538b/"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-111827?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>
-  <a href="https://instagram.com/its_aayush_kumawat"><img src="https://img.shields.io/badge/INSTAGRAM-@ITS_AAYUSH_KUMAWAT-111827?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram" /></a>
-</div>
-
-## `> system.readme // ONLINE`
+## `> identity.status`
 
 ```text
 NAME       Aayush Kumawat
 HANDLE     @ANDY0802X
-ROLE       Student Developer • Full Stack • UI/UX • Web • Game Dev
+ROLE       Student Developer
+FOCUS      Full Stack / UI-UX / Web / Game Dev
 LOCATION   Jaipur, Rajasthan
-STATUS     Currently building small worlds with large ideas
-SIGNAL     A machine that turns coffee into code.
+SIGNAL     Ideas in. Interfaces out.
 EMAIL      aayush130208@gmail.com
 ```
 
-> This repository is the source for my GitHub profile dashboard. The SVG is generated from public GitHub API data, so the numbers, repository cards, activity stream, and contribution visualization stay fresh without relying on fragile third-party profile widgets.
+### `> currently.building`
 
-## `> dashboard.modules`
+- Interactive web experiences with **React**, **Node.js**, **Firebase**, **Supabase**, and **MongoDB**
+- Atmospheric game worlds inspired by **The-Backrooms** and **Stiki-war**
+- Useful experiments that turn rough ideas into polished interfaces
 
-| Module | Live signal |
-| --- | --- |
-| `CONTRIBUTION MATRIX` | A custom generated activity visualization, not the default GitHub graph |
-| `GITHUB TELEMETRY` | Repositories, PRs, contributions, stars, followers, and language signal |
-| `PROJECT RADAR` | Featured repositories discovered automatically from the GitHub API |
-| `ACTIVITY STREAM` | Recent public events and commit activity, refreshed daily |
-| `STACK CORE` | Java · Python · C++ · HTML · CSS · JavaScript · React · Node.js |
-| `DATA LAYER` | MongoDB · MySQL · Firebase · Supabase |
-| `CREATIVE TOOLS` | Git · Figma · Antigravity · Base44 · Terminal · Spyder IDE · VS Code · Stitch |
-| `AI CO-PILOTS` | Claude · OpenClaw · Ollama |
+</td>
+<td width="42%" valign="top">
 
-### ⚡ Currently Building
+## `> system.telemetry`
 
-- **Interactive web experiences** with React, Node.js, Firebase, Supabase, and MongoDB.
-- **Game worlds and atmospheric interfaces** inspired by `The-Backrooms` and `Stiki-war`.
-- **Useful experiments** that turn rough ideas into polished, shippable interfaces.
+| Metric | Signal |
+| --- | ---: |
+| Public repositories | **10** |
+| Pull requests | **Live API** |
+| Contributions | **Live API** |
+| Repository stars | **Live API** |
+| Activity stream | **Live API** |
 
-### 🧰 Developer Setup
+### `> contribution.matrix`
 
-`VS Code` · `Spyder IDE` · `Eclipse` · `Figma` · `Stitch` · `Terminal` · `Antigravity` · `Base44` · `Claude` · `OpenClaw` · `Ollama`
+`▁ ▂ ▃ ▅ ▆ ▇ ▆ ▅ ▃ ▂ ▁`
 
-My workflow is deliberately hybrid: design in Figma/Stitch, prototype quickly with AI tools, build in the terminal, then polish the experience until it feels like a game menu.
+`▂ ▅ ▆ ▇ ▅ ▃ ▂ ▅ ▆ ▇ ▅`
 
-### 🧪 Technology Ecosystem
+`▃ ▆ ▇ ▅ ▂ ▃ ▅ ▆ ▇ ▆ ▃`
 
-| Layer | Stack |
-| --- | --- |
-| Languages | Java · Python · C++ · JavaScript · HTML · CSS |
-| Frontend | React · responsive UI · SVG motion · glassmorphism |
-| Backend | Node.js · Firebase · Supabase |
-| Data | MongoDB · MySQL |
-| Craft | Git · Figma · Stitch · terminal-first workflows |
+<sub>Custom generated activity visualization · refreshed daily</sub>
 
-### 🎮 Gaming
+</td>
+</tr>
+</table>
 
-Atmospheric games, strange spaces, survival systems, and anything that makes a UI feel like a place rather than a page.
+---
 
-### 🎵 Coding Music
+## `> project.radar // auto-discovered`
 
-Instrumental / lofi mode: **on**. The optional Spotify workflow can update the recently played panel when `SPOTIFY_CLIENT_ID`, `SPOTIFY_CLIENT_SECRET`, and `SPOTIFY_REFRESH_TOKEN` are configured. Without secrets, the dashboard keeps a calm local fallback instead of breaking.
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [`The-Backrooms`](https://github.com/ANDY0802X/The-Backrooms)
+
+> Atmospheric web/game experience with an unsettling sense of place.
+
+`GAME DEV` · `WEB` · `EXPERIMENTAL`
+
+</td>
+<td width="50%" valign="top">
+
+### [`terminal-portfolio`](https://github.com/ANDY0802X/terminal-portfolio)
+
+> A terminal-inspired portfolio for a terminal-first developer.
+
+`PORTFOLIO` · `UI/UX` · `WEB`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [`Stiki-war`](https://github.com/ANDY0802X/Stiki-war)
+
+> A game project built around action, systems, and atmosphere.
+
+`GAME DEV` · `CREATIVE CODE`
+
+</td>
+<td width="50%" valign="top">
+
+### [`MediNexus-Hospital-LifeCare`](https://github.com/ANDY0802X/MediNexus-Hospital-LifeCare)
+
+> A full-stack healthcare experience focused on useful interaction.
+
+`FULL STACK` · `DATA` · `PRODUCT`
+
+</td>
+</tr>
+</table>
 
 <details>
-<summary><b>Spotify setup</b></summary>
+<summary><b>View all repositories</b></summary>
 
-Add these repository secrets to enable the recently-played workflow:
-
-`SPOTIFY_CLIENT_ID` · `SPOTIFY_CLIENT_SECRET` · `SPOTIFY_REFRESH_TOKEN`
-
-The workflow runs every 30 minutes and only writes a small generated data file. No token is committed.
+[`appology`](https://github.com/ANDY0802X/appology) ·
+[`berd-ai-agents`](https://github.com/ANDY0802X/berd-ai-agents) ·
+[`birthday-surprise-scrapbook`](https://github.com/ANDY0802X/birthday-surprise-scrapbook) ·
+[`liquid-flow`](https://github.com/ANDY0802X/liquid-flow) ·
+[`MY-PROJECTS`](https://github.com/ANDY0802X/MY-PROJECTS) ·
+[`neumorphic-buble`](https://github.com/ANDY0802X/neumorphic-buble)
 
 </details>
 
-### 🏅 Holopin Badges
+---
 
-<a href="https://holopin.io/@andy0802x">
-  <img src="https://holopin.me/andy0802x" alt="Aayush's Holopin badges" width="100%" />
-</a>
+## `> stack.ecosystem`
 
-### 🏆 Certifications
+<table>
+<tr>
+<td><b>LANGUAGES</b></td>
+<td>Java · Python · C++ · HTML · CSS · JavaScript</td>
+</tr>
+<tr>
+<td><b>FRONTEND</b></td>
+<td>React · responsive UI · SVG motion · glassmorphism</td>
+</tr>
+<tr>
+<td><b>BACKEND</b></td>
+<td>Node.js · Firebase · Supabase</td>
+</tr>
+<tr>
+<td><b>DATABASE</b></td>
+<td>MongoDB · MySQL</td>
+</tr>
+<tr>
+<td><b>CRAFT</b></td>
+<td>Git · Figma · Stitch · terminal-first workflows</td>
+</tr>
+<tr>
+<td><b>AI / BUILD TOOLS</b></td>
+<td>Antigravity · Base44 · Claude · OpenClaw · Ollama</td>
+</tr>
+</table>
+
+---
+
+## `> recent.activity`
+
+| Event | Channel |
+| --- | --- |
+| `PUSH / COMMIT` | Repository work and interface experiments |
+| `PROJECT RADAR` | Automatically refreshed from public GitHub activity |
+| `BUILD SIGNAL` | Ideas → prototypes → polished experiences |
+| `NEXT TARGET` | More interactive web and game projects |
+
+## `> developer.setup`
+
+`VS Code` · `Spyder IDE` · `Eclipse` · `Figma` · `Stitch` · `Terminal` · `Antigravity` · `Base44` · `Claude` · `OpenClaw` · `Ollama`
+
+> Design in Figma/Stitch. Prototype quickly. Build in the terminal. Polish until the interface feels like a game menu.
+
+---
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+## `> gaming.mode`
+
+Atmospheric games, strange spaces, survival systems, and anything that makes a UI feel like a place rather than a page.
+
+**Current mood:** `explore → build → debug → repeat`
+
+</td>
+<td width="50%" valign="top">
+
+## `> music.mode`
+
+**Instrumental / lofi coding music: ON**
+
+Spotify recently played is supported through the repository workflow. It stays disabled safely until these secrets are configured:
+
+`SPOTIFY_CLIENT_ID`  
+`SPOTIFY_CLIENT_SECRET`  
+`SPOTIFY_REFRESH_TOKEN`
+
+</td>
+</tr>
+</table>
+
+## `> badges.certifications`
+
+**Holopin:** [open badge shelf](https://holopin.io/@andy0802x)
 
 `[ certification slot ]` · `[ certification slot ]` · `[ certification slot ]`
 
-### 🧩 Easter Eggs
+---
 
-- The dashboard palette shifts toward amber when the activity stream detects a high-output streak.
-- Repository cards use the language palette from the actual project rather than a generic badge.
-- The tiny status line is intentionally written like a terminal prompt: ideas in, interfaces out.
-
-### 🌐 Find Me
+## `> find.me`
 
 | Network | Link |
 | --- | --- |
 | GitHub | [@ANDY0802X](https://github.com/ANDY0802X) |
 | Instagram | [@its_aayush_kumawat](https://instagram.com/its_aayush_kumawat) |
 | LinkedIn | [aayush-kumawat-80466538b](https://www.linkedin.com/in/aayush-kumawat-80466538b/) |
-| Portfolio | `coming soon` |
 | Email | [aayush130208@gmail.com](mailto:aayush130208@gmail.com) |
-| Holopin | [badges](https://holopin.io/@andy0802x) |
+| Portfolio | `coming soon` |
 
-### 🧭 Developer Philosophy
+## `> developer.philosophy`
 
-> Make it useful. Make it feel alive. Make the next version easier to build.
-
----
+> **Make it useful. Make it feel alive. Make the next version easier to build.**
 
 <div align="center">
-  <sub>Generated with public GitHub data · designed as an original Nothing-OS-inspired developer console · profile picture intentionally preserved via GitHub avatar URL</sub>
+
+`◈ PROFILE_OS // NO PHOTO UPLOADS // LIVE DATA WORKFLOWS // ORIGINAL DESIGN ◈`
+
+<sub>Dashboard layout is built with native GitHub Markdown/HTML so it renders directly on the profile page.</sub>
+
 </div>
