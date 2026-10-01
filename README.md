@@ -69,7 +69,7 @@ SIGNAL     A machine that turns coffee into code.
 
 ## `> technology.ecosystem`
 
-<img src="https://raw.githubusercontent.com/ANDY0802X/ANDY0802X/master/assets/tech-ecosystem.svg" alt="Technology ecosystem with linked icons" width="100%" />
+<img src="https://raw.githubusercontent.com/ANDY0802X/ANDY0802X/master/assets/tech-ecosystem.svg?v=f849caa" alt="Technology ecosystem with claymorphic original icons" width="100%" />
 
 ## `> workstation`
 
